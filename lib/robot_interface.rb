@@ -1,7 +1,6 @@
 require "./lib/robot"
 class RobotInterface
 
-
   def initialize robot
     @robot = robot
   end
@@ -22,6 +21,10 @@ class RobotInterface
     when "M"
       @robot.move
     end
+    @robot.to_s
+  end
+
+  def get_robot_position
     @robot.to_s
   end
 end
