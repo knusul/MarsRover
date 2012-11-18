@@ -1,7 +1,7 @@
 class Compass
-  DIRECTIONS = ["N", "E", "S", "W"].freeze
 
   attr_accessor :direction
+
   def initialize direction
     @direction = direction
   end
@@ -35,6 +35,7 @@ class Compass
       "N"
     end
   end
+
   def to_s
     self.direction
   end

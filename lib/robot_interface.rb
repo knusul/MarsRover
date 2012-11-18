@@ -1,4 +1,5 @@
 require "./lib/robot"
+
 class RobotInterface
 
   def initialize robot

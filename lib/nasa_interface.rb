@@ -2,7 +2,9 @@ require "./lib/position"
 require "./lib/robot_interface"
 require "./lib/robot"
 require "./lib/compass"
+
 class NasaInterface
+
   def evaluate commands
     return unless valid_commands?(commands)
     result = ""
