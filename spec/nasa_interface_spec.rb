@@ -1,5 +1,5 @@
-require "rspec"
-require "./lib/nasa_interface"
+require "./spec/spec_helper"
+
 describe NasaInterface do
   it "validates commands" do
     subject.valid_commands?("5 5\n1 2 N\nLMLMLMLMM\n3 3 E\nMMRMMRMRRM").should == true

@@ -1,0 +1,5 @@
+require "./lib/robot"
+require "./lib/nasa_interface"
+require "./lib/robot_interface"
+require "./lib/position"
+require "rspec"
